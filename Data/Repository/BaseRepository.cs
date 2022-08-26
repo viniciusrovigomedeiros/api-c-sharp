@@ -39,6 +39,10 @@ namespace Data.Repository
         public virtual T GetById(int id)
         {
             T model = null;
+            using (WarrenContext warrenContext = new WarrenContext())
+            {
+                model = warrenContext.Set<T>().Find(id);
+            }
             return model;
         }
 
