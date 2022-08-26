@@ -1,0 +1,14 @@
+C:\aplicativos\c#\WebApi\Data\bin\Debug\net6.0\Data.deps.json
+C:\aplicativos\c#\WebApi\Data\bin\Debug\net6.0\Data.dll
+C:\aplicativos\c#\WebApi\Data\bin\Debug\net6.0\Data.pdb
+C:\aplicativos\c#\WebApi\Data\obj\Debug\net6.0\Data.csproj.AssemblyReference.cache
+C:\aplicativos\c#\WebApi\Data\obj\Debug\net6.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\aplicativos\c#\WebApi\Data\obj\Debug\net6.0\Data.AssemblyInfoInputs.cache
+C:\aplicativos\c#\WebApi\Data\obj\Debug\net6.0\Data.AssemblyInfo.cs
+C:\aplicativos\c#\WebApi\Data\obj\Debug\net6.0\Data.csproj.CoreCompileInputs.cache
+C:\aplicativos\c#\WebApi\Data\obj\Debug\net6.0\Data.dll
+C:\aplicativos\c#\WebApi\Data\obj\Debug\net6.0\refint\Data.dll
+C:\aplicativos\c#\WebApi\Data\obj\Debug\net6.0\Data.pdb
+C:\aplicativos\c#\WebApi\Data\obj\Debug\net6.0\ref\Data.dll
+C:\aplicativos\c#\WebApi\Data\bin\Debug\net6.0\Data.runtimeconfig.json
+C:\aplicativos\c#\WebApi\Data\obj\Debug\net6.0\Data.genruntimeconfig.cache
