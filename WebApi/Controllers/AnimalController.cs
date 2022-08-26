@@ -8,6 +8,13 @@ namespace WebApi.Controllers
     [ApiController]
     public class AnimalController : ControllerBase
     {
+        private AnimalRepository repo;
+
+        public AnimalController()
+        {
+            this.repo = new AnimalRepository();
+        }
+
       [HttpGet]
       public List<Animal> Get()
         {
