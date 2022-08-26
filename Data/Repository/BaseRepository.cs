@@ -31,11 +31,14 @@ namespace Data.Repository
 
         public virtual string Delete(int id)
         {
+            using (WarrenContext warrenContext = new WarrenContext())
+            {
+            WarrenContext.Entry<T>(GetById(id).State = Microsoft.EntityFrameworkCore.EntityState.Deleted;
+            WarrenContext.SaveChanges();
+                }
             return "Deletado";
+
         }
-
-   
-
         public virtual T GetById(int id)
         {
             T model = null;
@@ -48,7 +51,12 @@ namespace Data.Repository
 
         public virtual string Update(T model)
         {
-            return "Alterado";
+            using (WarrenContext warrenContext = new WarrenContext())
+            {
+            WarrenContext.Entry<T>(model).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+            WarrenContext.SaveChanges();
+            }
+            return "Atualizado";
         }
     }
 }
