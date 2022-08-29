@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebApi.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class GenericController<T, R> : ControllerBase where T : BaseModel where R : BaseRepository<T>
     {
         private R repo;

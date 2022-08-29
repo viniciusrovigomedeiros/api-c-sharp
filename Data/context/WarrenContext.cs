@@ -15,9 +15,10 @@ namespace Data.context
         #endregion
         public DbSet<Animal> Animal { get; set; }
         public DbSet<Planta> Planta { get; set; }
+        public DbSet<Usuario> Usuario { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql("Host=localHost;Port= 5433; Database=postgres;  UserId=postgres; password=123456");
+            optionsBuilder.UseNpgsql("Host=172.30.240.1;Port=5433; Database=postgres;  UserId=postgres; Password=123456");
         }
 
     }
