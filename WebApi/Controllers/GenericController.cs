@@ -4,13 +4,13 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebApi.Controllers
 {
-    public class GenericController<T> : ControllerBase where T : BaseModel
+    public class GenericController<T, R> : ControllerBase where T : BaseModel where R : BaseRepository<T>
     {
-        private BaseRepository<T> repo;
+        private R repo;
 
-        public GenericController()
+        public GenericController(R repo)
         {
-            this.repo = new BaseRepository<T>();
+            this.repo = repo;
         }
 
         [HttpGet]
