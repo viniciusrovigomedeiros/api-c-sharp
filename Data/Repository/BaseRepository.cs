@@ -33,9 +33,9 @@ namespace Data.Repository
         {
             using (WarrenContext warrenContext = new WarrenContext())
             {
-            WarrenContext.Entry<T>(GetById(id).State = Microsoft.EntityFrameworkCore.EntityState.Deleted;
-            WarrenContext.SaveChanges();
-                }
+            warrenContext.Entry<T>(this.GetById(id)).State = Microsoft.EntityFrameworkCore.EntityState.Deleted;
+            warrenContext.SaveChanges();
+            }
             return "Deletado";
 
         }
@@ -53,8 +53,8 @@ namespace Data.Repository
         {
             using (WarrenContext warrenContext = new WarrenContext())
             {
-            WarrenContext.Entry<T>(model).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
-            WarrenContext.SaveChanges();
+            warrenContext.Entry<T>(model).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+            warrenContext.SaveChanges();
             }
             return "Atualizado";
         }
