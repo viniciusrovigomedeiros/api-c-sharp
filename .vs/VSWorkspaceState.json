@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Data",
-    "\\Data\\Repository"
+    "\\Data\\context",
+    "\\WebApi"
   ],
-  "SelectedNode": "\\Data\\Repository\\BaseRepository.cs",
-  "PreviewInSolutionExplorer": false
+  "SelectedNode": "\\Data",
+  "PreviewInSolutionExplorer": true
 }
