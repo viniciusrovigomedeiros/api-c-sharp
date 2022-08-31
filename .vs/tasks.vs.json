@@ -5,6 +5,11 @@
       "taskLabel": "tarefa-Data",
       "appliesTo": "Data/",
       "type": "launch"
+    },
+    {
+      "taskLabel": "tarefa-WebApi",
+      "appliesTo": "/",
+      "type": "launch"
     }
   ]
 }

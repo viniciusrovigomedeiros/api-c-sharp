@@ -2,9 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Data",
-    "\\Data\\context",
-    "\\WebApi"
+    "\\WebApi",
+    "\\WebApi\\DTO"
   ],
-  "SelectedNode": "\\Data",
+  "SelectedNode": "\\WebApi",
   "PreviewInSolutionExplorer": true
 }
