@@ -8,7 +8,9 @@ namespace Data.Model
 {
     public class Categoria : BaseModel
     {
-        public string Nome { get; set; }
-        public string Descricao { get; set; }
+        public string Nome { get; set; } = String.Empty;    
+        public string Descricao { get; set; } = String.Empty;
+
+        public List<Produto> Produto { get; set; }
     }
 }
